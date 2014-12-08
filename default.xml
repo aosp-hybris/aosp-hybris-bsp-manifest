@@ -16,6 +16,6 @@
   <project remote="github" name="meta-qt5/meta-qt5" path="sources/meta-qt5"/>
 
   <!-- hybris -->
-  <project remote="github" name="aosp-hybris/meta-hydroid" path="sources/meta-hydroid" revision="master"/>
+  <project remote="github" name="aosp-hybris/meta-aosp-hybris" path="sources/meta-aosp-hybris" revision="master"/>
 
 </manifest>
