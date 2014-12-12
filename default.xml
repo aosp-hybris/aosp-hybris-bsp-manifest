@@ -6,14 +6,17 @@
   <remote fetch="git://github.com" name="github"/>
 
   <!-- Default use yocto daisy branch -->
-  <default sync-j="4" revision="master-next"/>
+  <default sync-j="4" revision="dizzy"/>
 
   <!-- yocto and openembedded -->
-  <project remote="yocto" name="poky" path="sources/poky"/>
-  <project remote="oe" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <!-- <project remote="yocto" name="poky" path="sources/poky"/> -->
+  <!-- <project remote="oe" name="meta-openembedded" path="sources/meta-openembedded"/> -->
+  <project remote="github" name="aosp-hybris/poky" path="sources/poky"/>
+  <project remote="github" name="aosp-hybris/meta-openembedded" path="sources/meta-openembedded"/>
 
   <!-- Qt5 -->
-  <project remote="github" name="meta-qt5/meta-qt5" path="sources/meta-qt5"/>
+  <!-- <project remote="github" name="meta-qt5/meta-qt5" path="sources/meta-qt5"/> -->
+  <project remote="github" name="aosp-hybris/meta-qt5" path="sources/meta-qt5" revision="master"/>
 
   <!-- hybris -->
   <project remote="github" name="aosp-hybris/meta-aosp-hybris" path="sources/meta-aosp-hybris" revision="master"/>
