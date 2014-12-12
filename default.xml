@@ -6,7 +6,7 @@
   <remote fetch="git://github.com" name="github"/>
 
   <!-- Default use yocto daisy branch -->
-  <default sync-j="4" revision="dizzy"/>
+  <default sync-j="4" revision="master-next"/>
 
   <!-- yocto and openembedded -->
   <project remote="yocto" name="poky" path="sources/poky"/>
